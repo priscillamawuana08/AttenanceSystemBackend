@@ -1,0 +1,46 @@
+server:
+  port: 8082
+  error:
+    include-message: always
+    include-stacktrace: never
+    include-binding-errors: always
+    include-exception: on
+
+spring:
+  application:
+    name: hostel
+  datasource:
+    username: postgres
+    password: test@1234
+    url: jdbc:postgresql://localhost:5432/attendance
+  jpa:
+    show-sql: true
+    hibernate:
+      #      ddl-auto: create-drop
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: testUser
+    password: test@1234
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+springdoc:
+  swagger-ui:
+    path: /main
+  api-docs:
+    path: /main/api-docs
+#
+#twilio:
+#  auth_token: "2d8c9c93b73c02dd1d38efa0fcb4111b"
+#  account_sid: "AC61b8fb7afbb1edddbda8dcaed03380c7"
