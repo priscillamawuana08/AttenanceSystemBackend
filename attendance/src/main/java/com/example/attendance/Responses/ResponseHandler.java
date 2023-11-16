@@ -1,8 +1,9 @@
 package com.example.attendance.Responses;
 
-import com.example.hostel.Responses.Schemas.MultiResponseModel;
-import com.example.hostel.Responses.Schemas.ResponseModel;
-import com.example.hostel.Responses.Schemas.SmsResponseModel;
+
+import com.example.attendance.Responses.Schemas.MultiResponseModel;
+import com.example.attendance.Responses.Schemas.ResponseModel;
+import com.example.attendance.Responses.Schemas.SmsResponseModel;
 import lombok.Data;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

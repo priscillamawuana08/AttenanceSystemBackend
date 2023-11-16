@@ -12,7 +12,7 @@ spring:
   datasource:
     # you can change these credentials to your own
     username: postgres
-    password: test@1234
+    password: asdf
     url: jdbc:postgresql://localhost:5432/attendance
   jpa:
     show-sql: true
