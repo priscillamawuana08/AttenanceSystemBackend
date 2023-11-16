@@ -1,6 +1,5 @@
 package com.example.attendance.Responses.Schemas;
 
-import com.example.hostel.Students.Models.Student;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
