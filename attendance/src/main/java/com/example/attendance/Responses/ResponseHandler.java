@@ -1,6 +1,5 @@
 package com.example.attendance.Responses;
 
-
 import com.example.attendance.Responses.Schemas.MultiResponseModel;
 import com.example.attendance.Responses.Schemas.ResponseModel;
 import com.example.attendance.Responses.Schemas.SmsResponseModel;
