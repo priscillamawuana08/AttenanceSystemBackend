@@ -14,7 +14,7 @@ public class OpenAPIConfig {
         .title("Attendance Services API")
         .version("1.0.0");
     return new OpenAPI()
-//        .components(new Components())
+       .components(new Components())
         .info(springBootInfo);
   }
 }
